@@ -1,0 +1,362 @@
+body {
+  margin: 0;
+  background-color: #fefefe;
+  background-image: url(images/federico-beccari-eGJg5iRGlg8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.first {
+  margin: 5vh auto;
+  background-color: #65b5a3;
+  max-width: 70vw;
+  height: auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+div.text {
+  max-width: 60vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+div.text > h1 {
+  padding-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
+  font-family: "Epilogue", sans-serif;
+}
+div.text > span {
+  max-width: 40vw;
+  height: auto;
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  color: rgb(13, 6, 70);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+  padding: 0px 10px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #5719bd;
+}
+div.text > ul {
+  margin-top: 50px;
+  list-style-type: none;
+  margin-left: -40px;
+}
+div.text > ul > li {
+  color: #0d141c;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 1px solid black;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
+  transition: 0.4s;
+}
+div.text > ul > li:hover {
+  background-color: #ede9ef;
+  border-radius: 8px;
+  border-bottom: 1px solid rgb(13, 6, 70);
+  transform: scale(1.1);
+}
+div.img > img {
+  max-width: 15vw;
+  height: auto;
+}
+div.links {
+  margin-left: 45px;
+}
+div.links > a {
+  font-family: "Bebas Neue", cursive;
+  display: inline-block;
+  padding: 10px 25px;
+  margin: 20px 20px;
+  background-color: rgb(13, 6, 70);
+  text-decoration: none;
+  font-size: 18px;
+  color: #dbd3df;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  border: 1px solid rgb(13, 6, 70);
+  transition: 0.4s;
+}
+div.links > a:hover {
+  background-color: #fefefe;
+  border: 1px solid rgb(13, 6, 70);
+  color: rgb(13, 6, 70);
+  transform: scale(1.1);
+}
+div.social {
+  max-width: 60vw;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+div.social > span > a > img {
+  max-width: 3vw;
+  height: auto;
+}
+div.social > span {
+  margin: 5px;
+  transition: 0.3s;
+}
+div.social > span :hover {
+  transform: scale(1.3);
+}
+
+div.skillbody {
+  background-color: #fefefe;
+  padding-bottom: 40px;
+}
+div.skillhead {
+  padding-top: 20px;
+  text-align: center;
+}
+div.skillhead > h1 {
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  color: rgb(13, 6, 70);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+div.skillhead > p {
+  display: inline-block;
+  padding: 0px 10px;
+  color: rgb(13, 6, 70);
+  font-size: 17px;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
+  font-family: "Epilogue", sans-serif;
+  text-transform: uppercase;
+  /* border-bottom: 1px solid rgb(13, 6, 70); */
+  font-weight: 200;
+}
+div.skills {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 100vw;
+  height: auto;
+}
+div.skills > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid rgb(13, 6, 70);
+  padding: 0px 10px;
+}
+div.skills > div > h2 {
+  color: rgb(13, 6, 70);
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-family: "Epilogue", sans-serif;
+  text-transform: uppercase;
+}
+div.education {
+  margin: 10vh auto;
+  border-radius: 5px;
+  max-width: 95vw;
+  height: auto;
+  /* background-color: #86f464; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+div.education > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+div.education > div > h1 {
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #faeaa2;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+div.education > div > h1:hover {
+  transform: scale(1.1);
+}
+div.education > div > ul {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  color: #f2b5b7;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
+  font-size: 16px;
+  font-weight: 600;
+}
+div.education > div > ul > li {
+  padding: 5px 8px;
+  border-left: 1px solid #f2b5b7;
+  transition: 0.3s;
+}
+div.education > div > ul > li:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1200px) {
+  div.text > h1 {
+    font-size: 15px;
+  }
+  div.img > img {
+    max-width: 18vw;
+    height: auto;
+  }
+  div.text > span {
+    font-size: 3rem;
+  }
+  div.text > ul > li {
+    font-size: 15px;
+  }
+  div.social > span > a > img {
+    max-width: 4vw;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  div.img > img {
+    max-width: 20vw;
+    height: auto;
+  }
+  div.text {
+    margin-left: 3vw;
+  }
+  div.links > a {
+    font-size: 14px;
+    padding: 10px 18px;
+  }
+  div.education > div > h1 {
+    font-size: 15px;
+  }
+  div.education > div > ul {
+    font-size: 12px;
+  }
+  div.social > span > a > img {
+    max-width: 5vw;
+    height: auto;
+  }
+  div.skills > div > img {
+    max-width: 5vw;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  div.first {
+    max-width: 65vw;
+  }
+
+  div.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3vw;
+  }
+  div.text > h1 {
+    padding-right: 4vw;
+  }
+  div.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0px;
+  }
+  div.social > span > a > img {
+    max-width: 6vw;
+    height: auto;
+  }
+  div.img > img {
+    visibility: hidden;
+    display: none;
+  }
+  div.education {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15vw;
+  }
+  div.skills > div > img {
+    max-width: 9vw;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  div.text > h1 {
+    font-size: 15px;
+  }
+  div.text > span {
+    font-size: 30px;
+  }
+  div.text > ul > li {
+    font-size: 12px;
+  }
+  div.links > a {
+    font-size: 10px;
+    padding: 8px 14px;
+    border-radius: 5px;
+  }
+  div.skills > div > h2 {
+    font-size: 15px;
+  }
+  div.skillhead > h1 {
+    font-size: 30px;
+  }
+  div.skillhead > p {
+    font-size: 15px;
+    margin: 0px 15px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  div.links > a {
+    text-align: center;
+  }
+  div.skills > div > img {
+    max-width: 7vw;
+    height: auto;
+  }
+  div.skills > div > h2 {
+    font-size: 15px;
+  }
+  div.skillhead > h1 {
+    font-size: 25px;
+  }
+  div.skillhead > p {
+    font-size: 15px;
+    margin: 0px 15px;
+  }
+  div.education > div > h1 {
+    font-size: 12px;
+  }
+  div.education > div > ul {
+    font-size: 10px;
+  }
+}
